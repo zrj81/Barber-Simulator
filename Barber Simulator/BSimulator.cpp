@@ -56,9 +56,9 @@ int main()
 		}
 		else
 		{
-			SetConsoleTextAttribute(hOut, FOREGROUND_RED);
+			SetConsoleTextAttribute(hOut, FOREGROUND_BLUE);
 			WriteConsoleW(hOut, L"\u263a", 1, NULL, NULL);
-			SetConsoleTextAttribute(hOut, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_RED);
+			SetConsoleTextAttribute(hOut, FOREGROUND_BLUE | FOREGROUND_GREEN | FOREGROUND_RED);
 		}
 		cout << "     |    \n";
 		SetConsoleTextAttribute(hOut, FOREGROUND_GREEN);
